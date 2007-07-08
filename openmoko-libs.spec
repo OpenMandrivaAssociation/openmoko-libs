@@ -16,7 +16,7 @@ License: 	LGPL
 URL: 		http://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
 BuildRequires:	lzma gsmd-devel evolution-data-server-devel gtk+-devel
-BuildRequires:	pango-devel atk-devel
+BuildRequires:	pango-devel atk-devel xosd-devel
 
 %description
 Libraries for OpenMoko.
