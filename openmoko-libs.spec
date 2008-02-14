@@ -12,6 +12,7 @@ Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
 Group: 		System/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: 	LGPL
 URL: 		http://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
