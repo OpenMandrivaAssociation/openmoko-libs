@@ -1,7 +1,7 @@
 %define	name	openmoko-libs
 %define	version	0
 %define	svnrel	20070709
-%define	release %mkrel 0.%{svnrel}.2
+%define	release %mkrel 0.%{svnrel}.3
 
 %define major	0
 %define libname %mklibname moko %{major}
