@@ -14,7 +14,7 @@ Release: 	%{release}
 Group: 		System/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: 	LGPL
-URL: 		http://www.openmoko.org/
+URL: 		https://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
 BuildRequires:	lzma gsmd-devel evolution-data-server-devel gtk+-devel
 BuildRequires:	pango-devel atk-devel xosd-devel
