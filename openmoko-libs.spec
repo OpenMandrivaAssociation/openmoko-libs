@@ -16,6 +16,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License: 	LGPL
 URL: 		https://www.openmoko.org/
 Source0:	%{name}-%{svnrel}.tar.lzma
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	lzma gsmd-devel evolution-data-server-devel gtk+-devel
 BuildRequires:	pango-devel atk-devel xosd-devel
 
